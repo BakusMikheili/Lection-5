@@ -11,3 +11,46 @@ body {
   text-align: left;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ----- სათაურები ----- */
+h1, h2, h3 {
+  color: #F5F5F2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+}
+
+/* მთავარი სათაური (hero-ში) */
+.hero h2 {
+  font-size: 48px;
+  line-height: 1.1;
+}   
+
+/* ნაწილების სათაურები */
+h2 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+/* ქვესათაურები (ბარათები, თარიღები, footer) */
+h3 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+/* ----- აბზაცები ----- */
+p { 
+  color: #C7CDD1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
